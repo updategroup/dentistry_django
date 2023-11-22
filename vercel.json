@@ -1,0 +1,14 @@
+{
+    "builds": [
+      {
+        "src": "dentistry/wsgi.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "dentistry/wsgi.py"
+      }
+    ]
+  }

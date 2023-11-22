@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-x4p9(y*-loks&a1gd%&9fx&10&4z84oy4%ug&c_^p)9m3#p6_7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app']
 
 
 # Application definition
@@ -67,7 +67,8 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'dentistry.wsgi.application'
+# WSGI_APPLICATION = 'dentistry.wsgi.application'
+WSGI_APPLICATION = 'dentistry.wsgi.app'
 
 
 # Database
