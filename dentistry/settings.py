@@ -68,8 +68,8 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'dentistry.wsgi.application'
-# WSGI_APPLICATION = 'dentistry.wsgi.app'
+# WSGI_APPLICATION = 'dentistry.wsgi.application'
+WSGI_APPLICATION = 'dentistry.wsgi.app'
 
 
 # Database
