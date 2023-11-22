@@ -1,7 +1,6 @@
 asgiref==3.7.2
 cffi==1.15.1
 Django==4.2.7
-greenlet==0.4.13
 hpy==0.0.4
 sqlparse==0.4.4
 typing_extensions==4.8.0
